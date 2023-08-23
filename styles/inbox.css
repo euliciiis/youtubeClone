@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+}
+
+.inbox-design {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.container {
+  width: 400px;
+  padding: 5px 0 15px 15px;
+  box-shadow: 4px 6px 5px rgba(0, 0, 0, .20);
+}
+
+.header {
+  color: rgb(170, 170, 170);
+  margin-bottom: 5px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+}
+
+.pic-section, img {
+  width: 50px;
+}
+
+img {
+  border-radius: 50px;
+}
+
+.message-section {
+  padding: 5px 0 5px 0;
+  margin-bottom: 10px;
+}
+
+.message-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.user-name, .subject-section{
+  font-weight: 700;
+}
+
+.user-name, .subject-section, .message-content {
+  margin-left: 10px;
+}
+
+.message-content {
+  font-size: 15px;
+  margin-top: 2px;
+  color: rgb(170, 170, 170);
+}
+
+.timestamp {
+  font-size: 15px;
+  color: rgb(170, 170, 170);
+}

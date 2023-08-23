@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body {
+  /* This style below will be inherited */
+  font-family: Roboto, Arial;
+  margin: 0;
+  background-color: rgb(240, 239, 239);
+  padding: 80px 15px 20px 96px;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}

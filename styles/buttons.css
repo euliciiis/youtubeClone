@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.subscribe-button {
+  background-color: rgb(200, 0, 0);
+  color: white;
+  border: none;
+  padding: 10px 16px 10px 16px;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 8px;
+  transition: opacity 0.15;
+  vertical-align: top;
+}
+
+.subscribe-button:hover {
+  opacity: 0.8;
+}
+
+.subscribe-button:active {
+  opacity: 0.5;
+}
+
+.join-button {
+  background-color: rgb(233, 233, 233);
+  padding: 9px 16px 9px 16px;
+  color: rgb(3, 3, 245);
+  border-radius: 2px;
+  border: solid 1px;
+  border-color: rgb(92, 92, 238);
+  cursor: pointer;
+  transition: background-color 0.15s, color 0.15s;
+}
+
+.join-button:hover {
+  background-color: rgb(3, 3, 245);
+  color: rgb(233, 233, 233);
+}
+
+.join-button:active {
+  opacity: 0.8;
+}
+
+.twitter-button {
+  margin-left: 8px;
+  background-color: rgb(28, 153, 255);
+  color: white;
+  border: none;
+  padding: 9px 16px 9px 16px;
+  border-radius: 18px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  transition: box-shadow 0.25s;
+  vertical-align: top;
+}
+
+.twitter-button:hover {
+  box-shadow: 6px 5px 10px rgba(0, 0, 0, 0.25);
+}

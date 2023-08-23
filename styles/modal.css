@@ -1,0 +1,37 @@
+.right-sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100px;
+  background-color: green;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, .5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  width: 300px;
+  height: 120px;
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.header {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+p {
+  font-family: Arial;
+}

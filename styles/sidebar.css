@@ -1,0 +1,66 @@
+.sidebar {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 55px;
+  background-color: rgb(255, 255, 255);
+  width: 72px;
+  z-index: 200;
+  padding: 5px;
+  transition: width .5s;
+}
+
+.sidebar-link {
+  height:74px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+  transition: width .5s;
+}
+
+.home,
+.explore,
+.subs,
+.originals,
+.yt-music,
+.library {
+  white-space: nowrap;
+  transition: font-size .5s;
+}
+
+.sidebar-link:hover {
+  background-color: rgb(224, 224, 224);
+  border-radius: 10px;
+}
+
+.sidebar-link img {
+  height: 25px;
+  margin-bottom: 4px;
+}
+
+.sidebar-link div {
+  font-size: 10px;
+}
+
+@media (min-width: 1200px) {
+  .sidebar-link {
+    flex-direction: row;
+    justify-content: start;
+  }
+}
+
+@media (min-width: 1200px) {
+  .sidebar-link img, .sidebar-link div {
+    margin-left: 10px;
+    font-size: 13px;
+    font-weight: 500;
+  }
+}
+
+@media (min-width: 1200px) {
+  .sidebar {
+    width: 150px;
+  }
+}
